@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Revision File">
+    <meta name="keywords" content="HTML, Revision">
+    <meta name="author" content="Abhi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Revision</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        section {
+            border: 1px solid gray;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+
+    <script>
+        function greet() {
+            alert("Hello from JavaScript!");
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Headings -->
+    <header>
+        <h1>HTML Revision File</h1>
+        <h2>Heading H2</h2>
+        <h3>Heading H3</h3>
+        <h4>Heading H4</h4>
+        <h5>Heading H5</h5>
+        <h6>Heading H6</h6>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="https://google.com">Text</a> |
+        <a href="#lists">Lists</a> |
+        <a href="#forms">Forms</a>
+    </nav>
+
+    <!-- Text Formatting -->
+    <section>
+        <h2>Text Formatting</h2>
+
+        <p>This is a paragraph.</p>
+
+        <b>Bold</b><br>
+        <strong>Strong</strong><br>
+        <i>Italic</i><br>
+        <em>Emphasis</em><br>
+        <u>Underline</u><br>
+        <mark>Highlighted</mark><br>
+        <small>Small Text</small><br>
+        <del>Deleted</del><br>
+        <ins>Inserted</ins><br>
+        H<sub>2</sub>O<br>
+        x<sup>2</sup><br>
+        <h1>Hero</h1>
+        <blockquote>
+            This is a blockquote.
+        </blockquote>
+
+        <q>Short quotation</q>
+
+        <pre>
+Preformatted
+    Text
+        Example
+        </pre>
+
+        <code>
+            console.log("Hello");
+        </code>
+
+        <hr>
+    </section>
+
+    <!-- Links -->
+    <section>
+        <h2>Links</h2>
+
+        <a href="https://www.google.com" target="_blank">Google</a><br>
+
+        <a href="mailto:test@example.com">Send Email</a><br>
+
+        <a href="tel:+911234567890">Call</a>
+    </section>
+
+    <!-- Images -->
+    <section>
+        <h2>Images</h2>
+
+        <img src="https://via.placeholder.com/150"
+             alt="Sample Image"
+             width="150">
+    </section>
+
+    <!-- Lists -->
+    <section id="lists">
+        <h2>Lists</h2>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Apple</li>
+            <li>Mango</li>
+        </ul>
+
+        <h3>Description List</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+        </dl>
+    </section>
+
+    <!-- Table -->
+    <section>
+        <h2>Table</h2>
+
+        <table>
+            <caption>Student Data</caption>
+
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Abhi</td>
+                    <td>20</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">End</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <!-- Semantic Tags -->
+    <section>
+        <h2>Semantic Elements</h2>
+
+        <article>
+            <h3>Article Title</h3>
+            <p>Article content.</p>
+        </article>
+
+        <aside>
+            Sidebar content.
+        </aside>
+
+        <details>
+            <summary>Click Here</summary>
+            Hidden content.
+        </details>
+    </section>
+
+    <!-- Media -->
+    <section>
+        <h2>Media</h2>
+
+        <audio controls >
+            <source src="./audio.mpeg" type="audio/mpeg">
+        </audio>
+
+        <br><br>
+
+        <video width="400px" controls muted loop>
+            <source src="sample.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- Forms -->
+    <section id="forms">
+        <h2>Forms</h2>
+
+        <form>
+
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your Name">
+            
+            
+            
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password">
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email">
+            <br><br>
+
+            <label>Number:</label>
+            <input type="number">
+            <br><br>
+
+            <label>Date:</label>
+            <input type="date">
+            <br><br>
+
+            <label>Color:</label>
+            <input type="color">
+            <br><br>
+
+            <label>File:</label>
+            <input type="file">
+            <br><br>
+
+            <label>Range:</label>
+            <input type="range">
+            <br><br>
+
+            Gender:
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <br><br>
+
+            Skills:
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <br><br>
+
+            <select>
+                <option>India</option>
+                <option>USA</option>
+                <option>UAE</option>
+                <option>UK</option>
+            </select>
+            <br><br>
+
+            <textarea rows="4" cols="30" ></textarea>
+            <br><br>
+
+            <button type="button" onclick="greet()">Click Me</button>
+
+            <input type="submit">
+            <input type="reset">
+
+        </form>
+    </section>
+
+    <!-- Inline Containers -->
+    <section>
+        <h2>Containers</h2>
+
+        <div>
+            This is a DIV block.
+        </div>
+
+        <span>
+            This is a SPAN inline element.&lt &gt
+        </span>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 HTML Revision File</p>
+    </footer>
+
+</body>
+</html>

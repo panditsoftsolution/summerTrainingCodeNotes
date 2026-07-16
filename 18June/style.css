@@ -1,0 +1,27 @@
+/* *{
+   color: red;
+} */
+ /* h1{
+   color: blue; 
+} */
+/* p{
+   background-color: green;
+} */
+/* 
+#html{
+   color: red;
+}
+#css{
+   color: blue;
+} */
+
+/* .first{
+   color: red;
+} */
+
+h1{   
+   border: 2px solid black;
+   border-radius: 10px;
+   padding: 50px 20px;
+   margin: 100px;
+}
