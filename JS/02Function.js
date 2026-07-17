@@ -318,22 +318,6 @@ function sumAll(...numbers) {
 console.log(sumAll(1, 2, 3));
 console.log(sumAll(10, 20, 30, 40));
 console.log(sumAll(100, 200, 300, 400, 500));
-
-// ==========================================================
-
-console.log("\n========== PRACTICE QUESTIONS ==========");
-
-console.log("1. Write a function to check Prime Number.");
-console.log("2. Write a function to reverse a string.");
-console.log("3. Write a recursive Fibonacci function.");
-console.log("4. Find maximum number using a function.");
-console.log("5. Create your own calculator.");
-console.log("6. Use callback to print Welcome Student.");
-console.log("7. Merge two arrays using Spread.");
-console.log("8. Find average using Rest Parameter.");
-console.log("9. Find factorial using recursion.");
-console.log("10. Create an arrow function to calculate square.");
-
-// ==========================================================
+ 
 
 console.log("\n========== END OF PHASE 2 ==========");

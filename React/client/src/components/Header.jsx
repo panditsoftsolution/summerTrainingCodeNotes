@@ -1,23 +1,25 @@
 import React from "react";
-import {Link} from "react-router-dom"
-import styles from "./Header.module.css"
+import { Link } from "react-router-dom";
+import styles from "./Header.module.css";
+ 
 
-const Header = () => {
+const Header = ({ navigation,Hello }) => {
+
   return (
-    <div>
-      <div className={styles.left}>
-        Er. Abhi Pandit
-      </div>
+    <div className={styles.box}>
+      <div className={styles.left}>Er. Abhi Pandit</div>
       <div className={styles.right}>
         <div>
-          <Link to="#">Home</Link>
-          <Link to="#">Skills</Link>
-          <Link to="#">Projects</Link>
-          <Link to="#">About</Link>
-          <Link to="#">Contact</Link>
+          {navigation.map((item) => {
+            return (
+              <Link key={item} className={styles.navitem} to="#">
+                {item}
+              </Link>
+            );
+          })} 
         </div>
         <div>
-          <button children={styles.toggle}>Light Mode</button>
+          <button onClick={Hello} >Light Mode</button> 
         </div>
       </div> 
     </div>
